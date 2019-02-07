@@ -1,0 +1,4 @@
+
+export ACE_ROOT=${PWD}/ACE_TAO/ACE
+export TAO_ROOT=${PWD}/ACE_TAO/TAO
+export MPC_ROOT=${PWD}/MPC
