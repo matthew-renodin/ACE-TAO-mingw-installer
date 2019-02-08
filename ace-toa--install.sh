@@ -31,7 +31,7 @@ else
 	cp platform_mingw32.GNU ACE_TAO/ACE/include/makeinclude/
 	cp platform_macros.GNU ACE_TAO/ACE/include/makeinclude/
 	cp config.h ACE_TAO/ACE/ace
-	cp drv_args.cpp ACE_TAO/TAO/TAO_IDL/drivers
+	cp drv_args.cpp ACE_TAO/TAO/TAO_IDL/driver
 	cp rTAO.mwc ACE_TAO/TAO
 
 
