@@ -1,5 +1,9 @@
 # ACE-TAO-mingw-installer
 
-Checkout the project
+How to use this project
 
-run the ace-tao--install.sh
+git clone https://github.com/matthew-renodin/ACE-TAO-mingw-installer.git ace-tao-mingw
+
+cd ace-tao-mingw
+
+./ace-tao--install.sh
