@@ -7,7 +7,7 @@ else
 
 	#install dlfcn-win32
 
-	git clone https://github.com/dlfcn-win32/dlfcn-win32.git
+	git clone https://github.com/dlfcn-win32/dlfcn-win32.git dlfcn-win32
 	cd dlfcn-win32
 	./configure
 	make
@@ -17,7 +17,7 @@ else
 	cd ..
 
 	#install mpc	
-	git clone https://github.com/DOCGroup/MPC.git
+	git clone https://github.com/DOCGroup/MPC.git mpc
 	
 	#install ACE_TAO
 	
@@ -25,7 +25,7 @@ else
 	source setenv
 	
 
-	git clone https://github.com/matthew-renodin/ACE_TAO.git
+	git clone https://github.com/matthew-renodin/ACE_TAO.git ACE_TAO
 	
 	
 	cp platform_mingw32.GNU ACE_TAO/ACE/include/makeinclude/
