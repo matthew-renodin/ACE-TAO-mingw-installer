@@ -40,7 +40,7 @@ else
 	cd ACE
 
 	$ACE_ROOT/bin/mwc.pl ACE.mwc -type gnuace
-	make all -j8
+	make all 
 
 	#exiting ACE
 	cd ..
@@ -50,7 +50,7 @@ else
 
 	$ACE_ROOT/bin/mwc.pl rTAO.mwc -type gnuace
 
-	make all -j8
+	make all 
 	#exiting TAO
 	cd ..
 	
