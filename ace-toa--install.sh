@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ $MSYSTEM != 'MINGW32' ]
-then
-	echo "This is a MING32 installer"
-else
+#if [ $MSYSTEM != 'MINGW32' ]
+#then
+#	echo "This is a MING32 installer"
+#else
 
 	#install dlfcn-win32
 
@@ -33,17 +33,18 @@ else
 	cp config.h ACE_TAO/ACE/ace
 	cp drv_args.cpp ACE_TAO/TAO/TAO_IDL/driver
 	cp rTAO.mwc ACE_TAO/TAO
-
+	cp rACE.mwc ACE_TAO/ACE
+	cp mtao_idl ACE_TAO/ACE/bin
 
 	cd ACE_TAO 
 
-	cd ACE
+#	cd ACE
 
-	$ACE_ROOT/bin/mwc.pl ACE.mwc -type gnuace
-	make all 
+#	$ACE_ROOT/bin/mwc.pl rACE.mwc -type gnuace
+#	make all 
 
 	#exiting ACE
-	cd ..
+#	cd ..
 
 
 	cd TAO
@@ -61,7 +62,7 @@ else
 	echo $ACE_ROOT
 	echo $TAO_ROOT
 	echo $MPC
-fi
+#fi
 
 
 
