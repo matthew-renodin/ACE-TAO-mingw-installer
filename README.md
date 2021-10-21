@@ -15,6 +15,8 @@ pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-x86_64-toolchai
 
 export PATH=/mingw32/bin:$PATH
 
+We want to add the DLLs or library to the path. So if the build directory contains the lib directory where the DLLs are, add this to the PATH variable.
+
 # Download the project
 
 git clone https://github.com/matthew-renodin/ACE-TAO-mingw-installer.git ace-tao-mingw
