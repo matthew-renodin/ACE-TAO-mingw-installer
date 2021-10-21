@@ -3,7 +3,11 @@
 
 How to use this project
 
-Open a MINGW64 console using MSYS2
+Open a MINGW64 console using MSYS2.
+
+I am using: 
+
+http://repo.msys2.org/distrib/x86_64/msys2-x86_64-20180531.exe
 
 # Set up MINGW64
 
